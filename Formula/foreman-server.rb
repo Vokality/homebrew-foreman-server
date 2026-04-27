@@ -5,15 +5,15 @@
 class ForemanServer < Formula
   desc "Foreman's local node runtime"
   homepage "https://github.com/Vokality/foreman"
-  version "0.1.12"
+  version "0.1.13"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Vokality/foreman/releases/download/server-v0.1.12/foreman-server-0.1.12-aarch64-apple-darwin.tar.gz"
-      sha256 "9fe308979e279181a638c2844f64ff8503a676b2888825a6d77af83896a51a4e"
+      url "https://github.com/Vokality/foreman/releases/download/server-v0.1.13/foreman-server-0.1.13-aarch64-apple-darwin.tar.gz"
+      sha256 "b86d2cca2894a78ff99726dfaf6dc22fb0e0aae248a2099ab4c72d6ff05be88e"
     else
-      url "https://github.com/Vokality/foreman/releases/download/server-v0.1.12/foreman-server-0.1.12-x86_64-apple-darwin.tar.gz"
-      sha256 "19394abc653e6b96bc6d98c710cc38cc05c28a05e8f0e57850d07800c45dada9"
+      url "https://github.com/Vokality/foreman/releases/download/server-v0.1.13/foreman-server-0.1.13-x86_64-apple-darwin.tar.gz"
+      sha256 "d0e68f70f9355fd0bb18c629b0ed44e50f1eb32f3c0ece3b30ff0c275f04a3f4"
     end
   end
 
